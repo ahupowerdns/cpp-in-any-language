@@ -1,7 +1,9 @@
 "use strict";  // YES!! Turn Javascript into a somewhat more serious language.
 
-// this code depends on topncounter.js
-// javascript has no #include statement
+/* this code depends on topncounter.js
+   javascript has no #include statement, so 'glue' your project together from 
+   html
+*/
 
 function fun()
 {
@@ -23,7 +25,7 @@ function fun()
     var top2 = counter.getTopN(2);
     
     $.each(top2, function(index, value) {
-	console.log(value);
+	console.log(value);  
     });
 }
 

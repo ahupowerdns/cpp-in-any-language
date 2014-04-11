@@ -1,4 +1,4 @@
-"use strict";
+"use strict"; // yes!
 
 /* Feed this class things, and we'll count them. Afterward, call getTopN
    to get top N most submitted things */
@@ -16,7 +16,7 @@ function TopNCounter()
 	}, 
 	getTopN: function(top) 
 	{
-	    var pairs=[];
+	    var pairs=[];  // "pairs is an array"
 	    $.each(this.counts, function(key, value) {
 		pairs.push([value.count, key]);
 	    });
@@ -27,6 +27,6 @@ function TopNCounter()
 		ret.push(pairs[i]);
 	    return ret;
 	},
-	counts: {}
+	counts: {}  // "counts is an object"
     };
 };
