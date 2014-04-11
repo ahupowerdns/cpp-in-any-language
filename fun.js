@@ -1,4 +1,7 @@
-"use strict";
+"use strict";  // YES!! Turn Javascript into a somewhat more serious language.
+
+// this code depends on topncounter.js
+// javascript has no #include statement
 
 function fun()
 {

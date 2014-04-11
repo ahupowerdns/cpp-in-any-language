@@ -10,7 +10,7 @@ If a very strange one.
 Javascript is fun to display the output of your C++ code, for example. 
 
 My friend Zwane Mwaikambo noted that, unlike in other languages he has
-experiences in, he'd never felt comfortable enough in Javascript do write 
+experience with, he'd never felt comfortable enough in Javascript do write 
 something worth storing, worth reusing, and I recognize that feeling.
 
 In these various examples, I'm developing my "javascript"-style, which might help
